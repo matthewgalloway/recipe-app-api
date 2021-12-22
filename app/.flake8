@@ -1,0 +1,8 @@
+[flake8]
+per-file-ignores =
+    app/calculations.py:W391
+exclude =
+  settings.py,
+  migrations,
+  __pycache__,
+  manage.py,
