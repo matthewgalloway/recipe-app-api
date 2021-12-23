@@ -1,4 +1,6 @@
-from django import TestCase
+from unittest.mock import patch
+from core import models
+from django.test import TestCase
 from django.contrib.auth import get_user_model
 
 class ModelTests(TestCase):
