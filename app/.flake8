@@ -6,3 +6,5 @@ exclude =
   migrations,
   __pycache__,
   manage.py,
+  views.py,
+  admin.py
